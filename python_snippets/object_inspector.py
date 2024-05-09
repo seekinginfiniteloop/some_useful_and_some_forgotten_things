@@ -6,10 +6,8 @@ from pprint import pformat
 def format_inspection(name, detail):
     formatted_text = f"{name}:\n"
     if isinstance(detail, (list, dict)):
-        # Pretty print for lists and dictionaries
         formatted_text += pformat(detail, indent=4, compact=True, width=80)
     else:
-        # Simple string conversion for other types
         formatted_text += str(detail)
     return formatted_text + "\n\n"
 
