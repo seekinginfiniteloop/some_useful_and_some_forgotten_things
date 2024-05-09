@@ -1,0 +1,1 @@
+This is a smattering of scripts and projects that I've written for various reasons -- some for learning, some for automating something. I've of course written a lot more scripts than this; consider this a curated sampling that I'm sharing because someone might find them useful.

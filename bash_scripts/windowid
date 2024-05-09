@@ -1,0 +1,3 @@
+#!/bin/bash
+
+WINDOWID=$(xprop  -root | sed -ne 's/^_NET_ACTIVE_WINDOW.*[)].*window id # //p')
